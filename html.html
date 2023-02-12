@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and drop events </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Paper , Scissor , Rock Game </h1>
+        <p id="statusMessage" class="message"></p>
+    </header>
+
+    <!-- the outer container -->
+    <main id="content">
+
+        <div id="rps1" class="rps">
+            <img src="stone-ai.png" alt="rock"  draggable="true">
+            <p>Rock</p>
+        </div>
+        <div id="rps2" class="rps">
+            <img src="paper.png" alt="paper" draggable="true">
+            <p>Paper</p>
+        </div>
+        <div id="rps3" class="rps">
+            <img src="scissor.png" alt="scissor"  draggable="true">
+            <p>Scissors</p>
+        </div>
+
+    </main>
+<script src="game.js"></script>
+</body>
+
+</html>
